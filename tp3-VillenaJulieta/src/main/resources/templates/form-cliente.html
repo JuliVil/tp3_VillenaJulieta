@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="body">
+	<header>
+	<h1 class="h1">PROGRAMACIÓN VISUAL</h1>
+		<nav class="nav">
+			<ol>
+				<li><a href="#section1">Introducción</a></li>
+				<li><a href="#section2">Variables Miembro</a></li>
+				<li><a href="#section3">Maven</a></li>
+			</ol>
+		</nav>
+	</header>
+	<main class="main">
+		<h1 class="h1">Formulario de Datos</h1>
+		<form action="">
+			<label for="dni">Ingrese el DNI: </label>
+			<input type="number" id="dni" required placeholder="ingrese su DNI" name=dni><br>
+			<label for="nombres" >Nombres: </label>
+			<input type="text" id="nombres" required placeholder="ingrese sus nombres"><br>
+			<label for="apellido">Apellido: </label>
+			<input type="text" id="apellido" required placeholder="ingrese su apellido"><br>
+			<label for="fechadenacimiento">Ingrese el DNI: </label>
+			<input type="date" id="fechadenacimiento" required placeholder="ingrese su fecha de nacimiento"><br>
+			<div>
+				<label for="generoM">Masculino:  </label>
+				<input type="radio" id="generoM" value="Masculino" name="genero">
+				<label for="generoF">Femenino: </label>
+				<input type="radio" id="Femenino" value="Femenino" name="genero">
+				<label for="generoO">Otro: </label>
+				<input type="radio" id="generoO" value="Otro" name="genero">
+			</div>
+			<label for="correo">Correo Electronico: </label>
+			<input type="email" id="correo"  placeholder="ingrese correo electronico" name="correoe" required><br>
+			<label for="domicilio">Domicilio: </label>
+			<input type="text" id="domicilio" required placeholder="ingrese su domicilio"><br>
+			<label for="provincia">Provincia: </label>
+			<select id="provincia" name="provinvia">
+				<option value="jujuy">Jujuy</option>
+				<option value="salta" selected>Salta</option>
+				<option value="tucuman">Tucumán</option>
+				<option value="formosa">Formosa</option>
+				<option value="neuquen">Neuquén</option>
+			</select>
+			<label for="telefonocelular">Telefono Celular: </label>
+			<input type="number" id="telefonocelular" required placeholder="ingrese su fecha de nacimiento"><br>
+			<label for="intereses">Categoria de Interes: </label>
+			<div>
+				<label for="intereses">Futbol:  </label>
+				<input type="checkbox" id="generoM" value="Futbol" name="categorias">
+				<label for="intereses">Gastronomia: </label>
+				<input type="checkbox" id="Femenino" value="Gastronomia" name="categorias">
+				<label for="intereses">Artes: </label>
+				<input type="checkbox" id="artes" value="Artes" name="categorias">
+			</div>
+			<label for="telefonocelular">Sugerencias: </label><br>
+			<textarea id="sugerencias" placeholder="ingrese comentarios" name="sugerencias" rows="8" cools="40"></textarea><br>
+			<label for="contraseña">Contraseña: </label>
+			<input type="password" id="contraseña" required placeholder="ingrese una contraseña" maxlength="10" minlength="8"><br>
+			<label for="denuevocontraseña">Nuevamente Contraseña: </label>
+			<input type="password" id="denuevocontraseña" required placeholder="ingrese una contraseña nuevamente" maxlength="10" minlength="8"><br>
+			<label for="t&C">Acepto Terminos y Condiciones: </label>
+			<input type="checkbox" id="t&c" required ><br>
+			<label for="info">Acepto recibir informacion relativa a la empresa: </label>
+			<input type="checkbox" id="info"><br>
+			<input type="button" value="Guardar">
+			<input type="button" value="Cancelar">
+		</form>
+	</main>
+	<footer>
+		<p class="p">Contacto: <a href="https://www.oracle.com/corporate/contact/">Comunicación con la página oficial de Oracle.</a></p>
+	</footer>
+</body>
+</html>
