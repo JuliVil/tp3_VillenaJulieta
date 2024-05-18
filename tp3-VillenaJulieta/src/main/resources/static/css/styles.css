@@ -28,6 +28,7 @@ header{
 .main{
 	background-color:rgb(70, 113, 71);
 	color:black;
+	font-family:Gill Sans MT;
 }
 .aside{
 	margin-left:3%;
@@ -87,4 +88,10 @@ header{
 .a2{
 	font-family:Gill Sans MT;
 	margin-left:8%;
+}
+.form{
+	font-family:Gill Sans MT;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:50px;
 }
